@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 //
+// second comment
 
 function App() {
   return (
