@@ -26,11 +26,11 @@ class App extends React.Component {
   };
 
   render() {
-    console.log('hi');
     return (
       <section className="feedbackSection">
         <h1>Please leave feedback</h1>
         <FeedbackOptions
+          options={Object.keys(this.state)}
           className="feedbackOptions"
           onIncrement={this.handleIncrement}
           onLeaveFeedback={this.countTotalFeedback}
