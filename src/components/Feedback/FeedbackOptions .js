@@ -22,6 +22,6 @@ const FeedbackOptions = ({ onIncrement, options }) => {
 
 FeedbackOptions.propTypes = {
   onIncrement: PropTypes.func.isRequired,
-  options: PropTypes.arrayOf(PropTypes.string.isRequired),
+  options: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
 };
 export default FeedbackOptions;
